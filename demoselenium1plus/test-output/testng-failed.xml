@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Drivers.GridExample">
+      <class name="com.Drivers.GetExcel">
         <methods>
-          <include name="openbrowser"/>
           <include name="testcase"/>
         </methods>
-      </class> <!-- com.Drivers.GridExample -->
+      </class> <!-- com.Drivers.GetExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
