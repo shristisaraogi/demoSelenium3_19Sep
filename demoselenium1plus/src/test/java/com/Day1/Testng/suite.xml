@@ -1,10 +1,9 @@
-<suite name= "MyFirstTestSuite">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name= "MyFirstTestSuite" parallel="methods" thread-count="2">
 <test name="MyFirstTest">
 <classes>
 <class name="com.Day1.Testng.Annotations"/>
-<class name="com.Day1.Testng.BasicAnnotations"/>
-<class name="com.Day1.Testng.DataDrivenExample"/>
-<class name="com.Drivers.RoughTest"/>
 </classes>
 </test>
 </suite>
